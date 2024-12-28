@@ -519,6 +519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecc0c158cc8b87e4d89826af20b37d78, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1640983107266808996, guid: ecc0c158cc8b87e4d89826af20b37d78, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -542,6 +546,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ecc0c158cc8b87e4d89826af20b37d78, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1414850106}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ecc0c158cc8b87e4d89826af20b37d78, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1414850108}
   m_SourcePrefab: {fileID: 100100000, guid: ecc0c158cc8b87e4d89826af20b37d78, type: 3}
 --- !u!4 &285349715 stripped
 Transform:
@@ -837,7 +844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &430659310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7517,6 +7524,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 792882306}
+--- !u!114 &1414850108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414850099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7569c6751c2984dac46bc671a92491, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 628778313}
 --- !u!4 &1548128955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6675156001532512144, guid: b11338c136219ec4a903a6f317ad4cb7, type: 3}
@@ -7596,7 +7616,7 @@ GameObject:
   - component: {fileID: 1853490745}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8604,7 +8624,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 855017103}
   - {fileID: 561893783}
-  - {fileID: 234301189}
   - {fileID: 512482154}
   - {fileID: 372216947}
   - {fileID: 326241697372104697}
@@ -8612,3 +8631,4 @@ SceneRoots:
   - {fileID: 1207823460}
   - {fileID: 586238170}
   - {fileID: 686966523}
+  - {fileID: 234301189}

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Island
   - Coin
+  - Lava
+  - Enemy
   layers:
   - Default
   - TransparentFX
